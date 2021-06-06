@@ -1,0 +1,24 @@
+.Flexbox {
+  margin-top: 7%; /*1em;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Flexbox > div {
+    display: inline-block;
+    width: 30%;
+  }
+.Ve1, .Bb1,.Cl1,.St1,.Ps1,.Pr1,.En1,.Dt1,.Wd1,.Bw1,.Tl1,.Bs1{
+  width: 100%;
+  transition: 1.0s;
+}
+.Ve1:hover,.Bb1:hover,.Cl1:hover,
+.St1:hover,.Ps1:hover,.Pr1:hover,
+.En1:hover,.Dt1:hover,.Wd1:hover,
+.Bw1:hover,.Tl1:hover,.Bs1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Ve, .Bb,.Cl,.St,.Ps,.Pr,.En,.Dt,.Wd,.Bw,.Bs{
+  display: none;
+}/*.Tl aggiungere quando avrò più foto*/

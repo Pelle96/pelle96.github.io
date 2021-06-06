@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .btn_menu{
+    display: none;
+   }
+   body{
+       margin: 0%;
+       }
+   
+    header,.Follow{
+    width: auto;
+    }
+     header, a{
+       display: block;
+   
+    } 
+    nav,  li  {
+       width: auto;
+    }
+    ul{
+       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+       
+    }
+    .Social{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+   
+   
+   }

@@ -1,0 +1,167 @@
+body{
+  background: rgb(22, 19, 19);
+  margin: 0%;
+  }
+  header{
+    align-items: center;
+    display: block;  
+  }
+.nav{
+  display:table-row;
+  font-family: monospace;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  background: rgb(22, 19, 19);
+  margin: auto;
+  padding-left: 0%;
+  text-align: center;
+  margin: auto;
+} 
+li {
+  color: #fff;
+  background: rgb(83, 82, 80);
+  margin: auto;
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}  
+li a {
+  color: #fff;
+}  
+li:hover {
+  background: rgb(22, 19, 19);
+  cursor: pointer;
+}  
+ul li ul {
+  background: rgb(83, 82, 80)e;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 1rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}  
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+.Who, .Myproject, .Myequipment, .Theoptional{
+  text-align: center;
+  color: rgb(212, 195, 195);
+  background-color: rgba(41, 49, 51, 0.418);
+  display: block;
+}
+#I, #Project, #Equipment, #Optional, #Filters, #Follow{
+  display: block;
+}
+.I, .Project, .Equipment{
+  width: 30%;
+  margin: auto;
+  text-align:center;
+  color: rgb(206, 192, 192);
+  font-size: 120%;
+}
+.paragrafo{
+  color: rgb(197, 177, 177);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.me{
+  width: 20%;
+  margin: auto;
+  margin-right:0%;
+  margin-left: 70%;
+  padding: 1%;
+  background: linear-gradient(-45deg, #fff, #6896c49c, #7895cf, #2f14a7);
+}
+.random, .random2{
+  display: block;
+  display: inline-block;
+  width: 30%;
+  margin-top: 5%;
+  padding: 1%; 
+}
+.random{
+  margin-left: 20%;
+  background: linear-gradient(-45deg, rgba(255, 255, 255, 0.452), #b86127ab, #5d15bbea, hsl(288, 98%, 19%));
+}
+.random2{
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.486), #8314eb, #003399);
+}
+.C_front, .C_back{
+  display: block;
+  display: inline-block;
+  width: 30%;
+  margin-top: 5%;
+  padding: 1%;
+}
+.C_front{
+  margin-left: 20%;
+  background: linear-gradient(-45deg, #fff, #007FFF, #003399);
+}
+.C_back{
+  background: linear-gradient(45deg, #fff, #007FFF, #003399);
+}
+.Filtri{
+  display: block;
+  margin-right: 39%;
+  margin-left: 39%;
+  width: 20%;
+  padding:1%;
+  background: linear-gradient(135deg, #0080ff6c, #007FFF, #003399);
+}
+footer{
+  display: block;
+  text-align: center;
+  margin-top: auto;
+}
+.T1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(41, 49, 51, 0.418);
+  display: block;
+}
+.Follow{
+  display: block;
+  width: 30%;
+  margin: auto;
+  text-align:center;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+}
+.Social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 25%;
+}
+.Page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 25%;
+}
+.copy{
+  background-color: rgba(41, 49, 51, 0.418);
+  color: whitesmoke;
+  font-style: italic;
+  display: block;
+}

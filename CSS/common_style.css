@@ -1,0 +1,87 @@
+body{
+  background: rgb(22, 19, 19);
+  margin: 0%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  display: block;
+}
+.TitleBar{
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  color: rgb(202, 138, 42);
+  font-size: 150%;
+  
+}
+nav{
+  display: block;
+  width: 100%;
+  position: fixed;
+  /* background-color: rgb(22, 19, 19); */
+}
+li > a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline-start: 0;
+ /* position:sticky;*/
+
+} 
+li {
+  margin: auto;
+  text-align: center;
+  width: 15%;
+  margin-top: 1%;
+  color: #fff;
+  background: rgb(99, 96, 94);
+  padding: 1rem;
+  transition-duration:0.5s;
+  list-style-type: none;
+  text-decoration: none;
+}  
+li:hover {
+  background: rgb(22, 19, 19);
+  cursor: pointer;
+}  
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+footer{
+  display: block;
+  text-align: center;
+  margin-top: auto;
+}
+.T1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(41, 49, 51, 0.418);
+  display: block;
+}
+.Follow{
+  display: block;
+  width: 30%;
+  margin: auto;
+  text-align:center;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+}
+.Social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 25%;
+}
+.copy{
+  background-color: rgba(41, 49, 51, 0.418);
+  color: whitesmoke;
+  font-style: italic;
+  display: block;
+}

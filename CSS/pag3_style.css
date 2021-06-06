@@ -1,0 +1,15 @@
+.Drone {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.Drone > a {
+  margin-top: 5%;
+  width: 30%;
+}
+.Dr {
+  margin: auto;
+  width: 100%;
+}
